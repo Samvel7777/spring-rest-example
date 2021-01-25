@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/rest20?useUnicode=true&characterEncoding=utf8&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=Asia/Yerevan
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: root
+server:
+  port: 8081
+
+#JWT
+jwt:
+  secret: JHF*$%*@122AKE052
+  expiration: 6000000
+  header: Authorization
